@@ -1,9 +1,9 @@
-# eslint-config-myy-vue
+# eslint-config-mysoft-vue
 
 ## Install
 
 ```bash
-npm install eslint-config-myy-vue
+npm install eslint-config-mysoft-vue
 ```
 
 ## Usage

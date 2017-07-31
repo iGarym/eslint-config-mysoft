@@ -1,13 +1,13 @@
 {
-  "name": "eslint-config-myy-vue",
+  "name": "eslint-config-mysoft-vue",
   "description": "JavaScript And Vue Style - ESLint Config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": {
     "name": "Gao Yueming",
     "email": "gaoym@mingyuanyun.com"
   },
   "bugs": {
-    "url": "https://github.com/iGarym/eslint-config-myy-vue/issues"
+    "url": "https://github.com/iGarym/eslint-config-mysoft-vue/issues"
   },
   "dependencies": {
     "eslint-restricted-globals": "^0.1.1"
@@ -19,10 +19,9 @@
     "eslint-plugin-vue": "3.5.1",
     "tape": "^4.7.0"
   },
-  "homepage": "https://github.com/iGarym/eslint-config-myy-vue",
+  "homepage": "https://github.com/iGarym/eslint-config-mysoft-vue",
   "keywords": [
-    "JavaScript myy Style",
-    "myy",
+    "JavaScript mysoft Style",
     "mingyuanyun"
   ],
   "license": "MIT",
@@ -34,9 +33,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iGarym/eslint-config-myy-vue"
+    "url": "https://github.com/iGarym/eslint-config-mysoft-vue"
   },
   "scripts": {
-    "tests-only": "babel-tape-runner ./test/test-*.js"
+    "test": "babel-tape-runner ./test/test-*.js"
   }
 }
