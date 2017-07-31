@@ -4,11 +4,7 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      generators: false,
-      objectLiteralDuplicateProperties: false
-    }
+    sourceType: 'module'
   },
   rules: {
     'arrow-body-style': ['warn', 'as-needed', {
