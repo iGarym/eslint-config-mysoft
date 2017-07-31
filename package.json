@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-myy-vue",
+  "description": "JavaScript And Vue Style - ESLint Config",
+  "version": "0.0.1",
+  "author": {
+    "name": "Gao Yueming",
+    "email": "gaoym@mingyuanyun.com"
+  },
+  "bugs": {
+    "url": "https://github.com/iGarym/eslint-config-myy-vue/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-vue": "3.5.1",
+    "tape": "^4.7.0"
+  },
+  "homepage": "https://github.com/iGarym/eslint-config-myy-vue",
+  "keywords": [
+    "JavaScript myy Style",
+    "myy",
+    "mingyuanyun"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=4.3.0",
+    "eslint-config-airbnb-base": ">=11.3.1",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-vue": ">=3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iGarym/eslint-config-myy-vue"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
