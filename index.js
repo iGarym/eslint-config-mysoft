@@ -8,14 +8,9 @@ module.exports = {
     './rules/variables',
     './rules/es6',
     './rules/imports',
-    './rules/vue',
   ].map(require.resolve),
   parserOptions: {
-    parser: "babel-eslint",
-    ecmaVersion: 2017,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: false
-    }
+    ecmaVersion: 6,
+    sourceType: 'module'
   }
 };
