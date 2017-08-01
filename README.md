@@ -29,7 +29,7 @@ yarn add eslint-config-mysoft -D
 - React 项目
   - eslint-plugin-react
 - Vue 项目
-  - eslint-plugin-vue
+  - eslint-plugin-vue>=3.5.1
 
 ### 配置文件
 
