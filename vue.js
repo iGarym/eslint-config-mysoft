@@ -6,9 +6,13 @@ module.exports = {
 
   parserOptions: {
     parser: 'babel-eslint',
-    ecmaVersion: 6,
+    ecmaVersion: 8,
     sourceType: 'module'
   },
+
+  plugins: [
+    'vue'
+  ],
 
   extends: [
     'plugin:vue/recommended'
