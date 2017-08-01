@@ -1,7 +1,8 @@
 {
   "name": "eslint-config-mysoft",
   "description": "JavaScript Style For Mysoft - ESLint Config",
-  "version": "0.2.0",
+  "main": "index.js",
+  "version": "0.2.1",
   "author": {
     "name": "Gao Yueming",
     "email": "gaoym@mingyuanyun.com"
@@ -18,13 +19,13 @@
   },
   "homepage": "https://github.com/iGarym/eslint-config-mysoft",
   "keywords": [
+    "eslint",
     "JavaScript Mysoft Style",
     "mingyuanyun"
   ],
   "license": "MIT",
-  "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": ">=7.2.3",
+    "babel-eslint": "^7.2.3",
     "eslint": "^4.3.0",
     "eslint-plugin-import": "^2.7.0"
   },
@@ -33,6 +34,6 @@
     "url": "https://github.com/iGarym/eslint-config-mysoft"
   },
   "scripts": {
-    "test": "babel-tape-runner ./test/test-*.js"
+    "test": "babel-tape-runner ./test/test-*.js,./*.js"
   }
 }
