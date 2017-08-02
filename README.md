@@ -55,7 +55,10 @@ module.exports = {
       }
     }
   },
-  rules: {}
+  rules: {
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
+  }
 }
 ```
 
@@ -85,12 +88,15 @@ module.exports = {
     },
 +   // React
 +   react: {
-+     "createClass": "createReactClass",
-+     "pragma": "React",
-+     "version": "15.0"
++     createClass: "createReactClass",
++     pragma: "React",
++     version: "15.0"
 +   }
   },
-  rules: {}
+  rules: {
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
+  }
 }
 ```
 
@@ -118,7 +124,10 @@ module.exports = {
       }
     }
   },
-  rules: {}
+  rules: {
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
+  }
 }
 
 // React
@@ -141,12 +150,15 @@ module.exports = {
       }
     },
     react: {
-      "createClass": "createReactClass",
-      "pragma": "React",
-      "version": "15.0"
+      createClass: "createReactClass",
+      pragma: "React",
+      version: "15.0"
     }
   },
-  rules: {}
+  rules: {
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
+  }
 }
 ```
 
