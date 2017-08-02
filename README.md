@@ -49,7 +49,9 @@ module.exports = {
   settings: {
     'import/resolver': {
       webpack: {
-        config: 'build/webpack.base.conf.js'
+        // webpack 的 resolve配置
+        // 根据项目实际情况可能有所修改
+        config: 'build/webpack.base.conf.js'
       }
     }
   },
@@ -80,7 +82,13 @@ module.exports = {
       webpack: {
         config: 'build/webpack.base.conf.js'
       }
-    }
+    },
++   // React
++   react: {
++     "createClass": "createReactClass",
++     "pragma": "React",
++     "version": "15.0"
++   }
   },
   rules: {}
 }
@@ -131,6 +139,11 @@ module.exports = {
       webpack: {
         config: 'build/webpack.base.conf.js'
       }
+    },
+    react: {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "15.0"
     }
   },
   rules: {}
