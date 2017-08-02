@@ -2,7 +2,7 @@
   "name": "eslint-config-mysoft",
   "description": "JavaScript Style For Mysoft - ESLint Config",
   "main": "index.js",
-  "version": "0.2.2",
+  "version": "0.3.2",
   "author": {
     "name": "Gao Yueming",
     "email": "gaoym@mingyuanyun.com"
