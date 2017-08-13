@@ -8,7 +8,7 @@ module.exports = {
     'no-await-in-loop': 'error',
     'no-compare-neg-zero': 'off',
     'no-cond-assign': ['error', 'always'],
-    'no-console': 'error',
+    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
     'no-constant-condition': 'warn',
     'no-control-regex': 'error',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
