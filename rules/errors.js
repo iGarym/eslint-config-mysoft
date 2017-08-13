@@ -11,7 +11,7 @@ module.exports = {
     'no-console': 'error',
     'no-constant-condition': 'warn',
     'no-control-regex': 'error',
-    'no-debugger': 'error',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-dupe-args': 'error',
     'no-dupe-keys': 'error',
     'no-duplicate-case': 'error',
