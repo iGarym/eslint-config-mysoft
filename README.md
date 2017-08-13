@@ -20,16 +20,16 @@ yarn add eslint-config-mysoft -D
   - eslint
   - babel-eslint
   - eslint-plugin-import
+- React 项目
+  - eslint-plugin-react
+- Vue 项目
+  - eslint-plugin-vue>=3.5.1
 - Webpack
   - eslint-loader
   - eslint-friendly-formatter
   - eslint-import-resolver-webpack
 - Gulp
   - gulp-eslint
-- React 项目
-  - eslint-plugin-react
-- Vue 项目
-  - eslint-plugin-vue>=3.5.1
 
 ### 配置文件
 
@@ -55,10 +55,7 @@ module.exports = {
       }
     }
   },
-  rules: {
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
-  }
+  rules: {}
 }
 ```
 
@@ -93,10 +90,7 @@ module.exports = {
 +     version: "15.0"
 +   }
   },
-  rules: {
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
-  }
+  rules: {}
 }
 ```
 
@@ -124,10 +118,7 @@ module.exports = {
       }
     }
   },
-  rules: {
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
-  }
+  rules: {}
 }
 
 // React
@@ -155,10 +146,7 @@ module.exports = {
       version: "15.0"
     }
   },
-  rules: {
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off',
-  }
+  rules: {}
 }
 ```
 
