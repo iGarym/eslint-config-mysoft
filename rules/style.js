@@ -13,7 +13,7 @@ module.exports = {
     'brace-style': ['error', '1tbs', {
       'allowSingleLine': true
     }],
-    'camelcase': 'error',
+    'camelcase': ['error', { 'properties': 'never' }],
     'capitalized-comments': ['off', 'never', {
       'line': {
         'ignorePattern': '.*',
