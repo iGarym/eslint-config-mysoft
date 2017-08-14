@@ -34,6 +34,7 @@
     "url": "https://github.com/iGarym/eslint-config-mysoft"
   },
   "scripts": {
+    "pub": "sh release.sh",
     "test": "babel-tape-runner ./test/test-*.js,./*.js"
   }
 }
