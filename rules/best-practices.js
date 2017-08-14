@@ -4,9 +4,7 @@ module.exports = {
     'array-callback-return': 'error',
     'block-scoped-var': 'warn',
     'complexity': ['off', 11],
-    'class-methods-use-this': ['error', {
-      'exceptMethods': []
-    }],
+    'class-methods-use-this': 'off',
     'consistent-return': 'error',
     'curly': ['warn', 'multi-line'],
     'default-case': ['error', {
