@@ -1,0 +1,7 @@
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+npm-debug.log
+release.sh
