@@ -17,13 +17,13 @@ yarn add eslint-config-mysoft -D
 为了正常使用 ESLint，你需要为项目安装一些依赖
 
 - 通用依赖
-  - eslint
+  - eslint^4.3.0
   - babel-eslint
   - eslint-plugin-import
 - React 项目
   - eslint-plugin-react
 - Vue 项目
-  - eslint-plugin-vue>=3.5.1
+  - eslint-plugin-vue >= 3.6.0
 - Webpack
   - eslint-loader
   - eslint-friendly-formatter
