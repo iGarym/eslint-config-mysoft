@@ -1,5 +1,7 @@
 # eslint-config-mysoft
 
+[![NPM downloads](https://img.shields.io/npm/dm/eslint-config-mysoft.svg)](https://www.npmjs.com/package/eslint-config-mysoft)
+
 适用于明源云创前端团队的 ESLint 规则。包含了一些通用的规则，和针对 Vue、 React 项目的可选规则。
 
 ## 安装
